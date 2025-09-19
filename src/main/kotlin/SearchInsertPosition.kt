@@ -1,8 +1,6 @@
 package org.example
 
 class SearchInsertPosition {
-//    35/Search Insert Position
-
     fun searchInsert(nums: IntArray, target: Int): Int {
 
         var left = 0

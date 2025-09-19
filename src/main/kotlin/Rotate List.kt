@@ -1,7 +1,6 @@
 package org.example
 
 class RotateList {
-    // 61.Rotate List
 
     fun rotateRight(head: ListNode?, k: Int): ListNode? {
         if (head == null) return head

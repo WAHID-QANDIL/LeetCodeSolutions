@@ -1,7 +1,6 @@
 package org.example
 
 class MergeSortedArray {
-//    88. Merge Sorted Array
 
     fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
         var i = m - 1   // pointer in nums1

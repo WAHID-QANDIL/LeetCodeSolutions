@@ -1,7 +1,6 @@
 package org.example
 
 class SortColors {
-    //75.SortColors
     class Solution {
         fun sortColors(nums: IntArray): Unit {
             mergeSort(nums)
@@ -19,11 +18,7 @@ class SortColors {
 
                 mergeSort(originalArray, helperArray, low, mid)
                 mergeSort(originalArray, helperArray, mid + 1, high)
-                // originalArray.forEach { print("$it ") }
-                // println()
                 merge(originalArray, helperArray, low, mid, high)
-                // originalArray.forEach { print("$it ") }
-                // println()
 
             }
 

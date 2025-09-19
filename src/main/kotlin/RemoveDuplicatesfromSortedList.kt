@@ -1,7 +1,6 @@
 package org.example
 
 class RemoveDuplicatesFromSortedList {
-//    83.Remove Duplicates from Sorted List
 
     fun deleteDuplicates(head: ListNode?): ListNode? {
         if (head?.next == null){

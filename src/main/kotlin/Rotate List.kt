@@ -28,9 +28,5 @@ class RotateList {
         tail?.next = head
 
         return newHead
-
-
     }
-
-
 }

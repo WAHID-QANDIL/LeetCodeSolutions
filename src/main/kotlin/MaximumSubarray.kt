@@ -12,6 +12,4 @@ fun maxSubArray(nums: IntArray): Int {
 
     return maxSum
 
-}
-
-}
+}}

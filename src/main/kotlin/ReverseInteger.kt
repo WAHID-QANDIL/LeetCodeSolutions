@@ -10,7 +10,7 @@ class ReverseInteger {
         while (num != 0) {
             val digit = num % 10
             if (reversed > (Int.MAX_VALUE - digit) / 10) {
-                return 0 // Overflow
+                return 0
             }
             reversed = reversed * 10 + digit
             num /= 10

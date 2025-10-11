@@ -12,7 +12,4 @@ class PalindromeNumber {
             return x == rev
         }
         return false
-    }
-
-
-}
+    }}

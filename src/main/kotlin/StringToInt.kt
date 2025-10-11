@@ -23,5 +23,4 @@ class StringToInt {
         }
 
         return (result * sign).toInt()
-    }
-}
+    }}
